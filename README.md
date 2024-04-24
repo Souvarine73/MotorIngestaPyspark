@@ -18,13 +18,14 @@ Ejemplo de Uso
 Aquí te dejo un ejemplo de cómo usar el paquete MotorIngesta:
 
 
-```python from MotorIngesta import MotorIngesta
+```python
+from MotorIngesta import MotorIngesta
 from csv_ingesta import schema_csv
 
 # Inicializa el motor
 motor = MotorIngesta()
 
 # Ejecuta el motor
-motor.write_stream(spark, schema_csv)```
-
+motor.write_stream(spark, schema_csv)
+```
 Este código inicializa el motor de ingesta y luego lo ejecuta utilizando el esquema definido en csv_ingesta.py.
